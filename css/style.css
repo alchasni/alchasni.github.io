@@ -670,7 +670,7 @@ h3.w3-head-project {
     letter-spacing: 2px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
-.w3-edu-info2 h5 {
+.w3-edu-info2 div {
     margin-left: 1.5em;
     color:#212121;
     text-transform: capitalize;
