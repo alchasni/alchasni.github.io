@@ -110,11 +110,7 @@
 	function checkPassword() {
 		const input = document.getElementById('password').value;
 		const errorMsg = document.getElementById('error-msg');
-		if (input === "chasniganteng") {
-			window.location.href = "home.html"; // rename your real index.html to this
-		} else {
-			errorMsg.textContent = "Incorrect password. Try again.";
-		}
+		errorMsg.textContent = "Incorrect password. Try again.";
 	}
 
 	document.getElementById("password").addEventListener("keypress", function (e) {
